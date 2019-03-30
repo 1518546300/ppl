@@ -1,0 +1,125 @@
+
+eff_spine_ppl_xc.png
+size: 516,530
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+glow01
+  rotate: false
+  xy: 427, 96
+  size: 88, 88
+  orig: 132, 132
+  offset: 22, 22
+  index: -1
+glow02
+  rotate: false
+  xy: 238, 53
+  size: 96, 96
+  orig: 132, 132
+  offset: 18, 18
+  index: -1
+glow03
+  rotate: false
+  xy: 133, 45
+  size: 104, 104
+  orig: 132, 132
+  offset: 14, 14
+  index: -1
+glow04
+  rotate: false
+  xy: 377, 286
+  size: 112, 112
+  orig: 132, 132
+  offset: 10, 10
+  index: -1
+glow05
+  rotate: false
+  xy: 258, 280
+  size: 118, 118
+  orig: 132, 132
+  offset: 7, 7
+  index: -1
+glow06
+  rotate: false
+  xy: 133, 150
+  size: 122, 122
+  orig: 132, 132
+  offset: 5, 5
+  index: -1
+glow07
+  rotate: false
+  xy: 389, 403
+  size: 126, 126
+  orig: 132, 132
+  offset: 3, 3
+  index: -1
+glow08
+  rotate: false
+  xy: 1, 12
+  size: 128, 128
+  orig: 132, 132
+  offset: 2, 2
+  index: -1
+glow09
+  rotate: false
+  xy: 258, 399
+  size: 130, 130
+  orig: 132, 132
+  offset: 1, 1
+  index: -1
+glow10
+  rotate: false
+  xy: 1, 141
+  size: 131, 131
+  orig: 132, 132
+  offset: 1, 0
+  index: -1
+guang
+  rotate: false
+  xy: 1, 273
+  size: 256, 256
+  orig: 256, 256
+  offset: 0, 0
+  index: -1
+yan01
+  rotate: false
+  xy: 440, 213
+  size: 67, 72
+  orig: 94, 94
+  offset: 20, 6
+  index: -1
+yan02
+  rotate: true
+  xy: 427, 10
+  size: 85, 86
+  orig: 94, 94
+  offset: 9, 3
+  index: -1
+yan03
+  rotate: false
+  xy: 335, 1
+  size: 89, 89
+  orig: 94, 94
+  offset: 5, 0
+  index: -1
+yan04
+  rotate: false
+  xy: 335, 91
+  size: 91, 93
+  orig: 94, 94
+  offset: 3, 0
+  index: -1
+yan05
+  rotate: false
+  xy: 258, 185
+  size: 94, 94
+  orig: 94, 94
+  offset: 0, 0
+  index: -1
+yan06
+  rotate: true
+  xy: 353, 185
+  size: 94, 86
+  orig: 94, 94
+  offset: 0, 8
+  index: -1

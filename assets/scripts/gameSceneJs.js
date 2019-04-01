@@ -137,25 +137,30 @@ cc.Class({
 
     setListener: function(){
         this.node.on(cc.Node.EventType.TOUCH_START, function(eventTouch){
-            let temp = eventTouch.getLocation();
-            if(temp.y > 300){
-                global.aimingYDistance = constValue.aimingYDistance;
-                global.arrowRotation = 0;
-                global.touchStart = 1;
-                this.changeArrowRotation(temp);
-                this.pushActionToClown('1');
+            if(this.cmd.length === 0 && !global.gameOverFlag && global.myBulletNum > 0){
+                let temp = eventTouch.getLocation();
+                if(temp.y > 300){
+                    global.aimingYDistance = constValue.aimingYDistance;
+                    global.arrowRotation = 0;
+                    global.touchStart = 1;
+                    this.changeArrowRotation(temp);
+                    this.pushActionToClown('1');
 
-                let ballViews = this.arrow.getComponent("arrowJs");
-                ballViews.createAimingLine();
+                    let ballViews = this.arrow.getComponent("arrowJs");
+                    ballViews.createAimingLine();
+                }
             }
+
         }, this);
         this.node.on(cc.Node.EventType.TOUCH_MOVE, function(eventTouch){
-            let temp = eventTouch.getLocation();
-            if(temp.y > 300){
-                this.changeArrowRotation(temp);
-            }else{
-                this.pushActionToClown('0');
-                this.arrow.rotation = 0;
+            if(this.cmd.length === 0 && !global.gameOverFlag && global.myBulletNum > 0){
+                let temp = eventTouch.getLocation();
+                if(temp.y > 300){
+                    this.changeArrowRotation(temp);
+                }else{
+                    this.pushActionToClown('0');
+                    this.arrow.rotation = 0;
+                }
             }
         }, this);
         this.node.on(cc.Node.EventType.TOUCH_END, function(eventTouch){

@@ -67,7 +67,7 @@ cc.Class({
                 }
             } else if(cmd[i].action == "drop"){
                 this.getComponent(cc.PhysicsCircleCollider).sensor = true;
-                let move = cc.moveTo(0.3, cc.v2(this.model.x,this.node.y-450));
+                let move = cc.moveTo(0.2, cc.v2(this.model.x,this.node.y-300));
                 actionArray.push(move);
                 let callFunc = cc.callFunc(function(){
                     global.removeBallFromPool(this.node);
